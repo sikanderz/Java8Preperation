@@ -18,5 +18,7 @@ public class DistinctElement {
         Set<Integer> set = nums.stream()
                 .collect(Collectors.toSet());
         System.out.println(set);
+
+        
     }
 }
